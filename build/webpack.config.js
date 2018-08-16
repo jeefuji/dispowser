@@ -66,6 +66,8 @@ var config = {
     ],
     output: {
         path: resolve(bundleOutputDir),
+        library: 'dispowser',
+        libraryTarget: 'umd',
         filename: '[name].js',
         publicPath: '/dist/'
     }
