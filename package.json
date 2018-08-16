@@ -2,7 +2,7 @@
   "name": "dispowser",
   "version": "0.1.1",
   "description": "Tools easing the management of resource disposing. Easy to use, will support more and more use cases.",
-  "main": "src/dispowser.js",
+  "main": "dist/dispowser.js",
   "scripts": {
     "prod": "cross-env NODE_ENV=production webpack -p --config 'build/webpack.config.js'",
     "dev": "cross-env NODE_ENV=development webpack --config 'build/webpack.config.js'",
