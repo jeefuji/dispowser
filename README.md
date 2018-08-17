@@ -10,8 +10,10 @@ Dispowser is a tool which facilitate resource disposing management. Easy to use,
 ## Examples
 ### Manual disposing
 ```javascript
+  import Dispowser from "dispowser";
+  
   function WebsocketWrapper() {
-    this.ws = new Websocket("ws://localhost:4573"); // rxjs subject
+    this.ws = new Websocket("ws://localhost:4573");
     this.ws.onclose = () => console.log("closed");
     
     this.dispose = () => {
@@ -33,6 +35,8 @@ Dispowser is a tool which facilitate resource disposing management. Easy to use,
 
 ### Manual disposing with RxJS
 ```javascript
+  import Dispowser from "dispowser";
+
   let subject = new Rx.Subject();
 
   let disposer = Dispowser.createDisposer();
@@ -54,6 +58,7 @@ Dispowser is a tool which facilitate resource disposing management. Easy to use,
 
 ### Automatic disposing with AngularJs
 ```javascript
+  import Dispowser from "dispowser";
 
   function WebsocketWrapper() {
     this.ws = new Websocket("ws://localhost:4573"); // rxjs subject
