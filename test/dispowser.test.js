@@ -1,7 +1,7 @@
 import './common.test'
 import uuid from "uuid/v4";
 import _ from "lodash";
-import Dispowser from '../dist/dispowser';
+import Dispowser from '../lib/dispowser';
 
 describe('Dispowser', () => {
     beforeEach(() => {

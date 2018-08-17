@@ -2,7 +2,7 @@
   "name": "dispowser",
   "version": "0.1.3",
   "description": "Tools easing the management of resource disposing. Easy to use, will support more and more use cases.",
-  "main": "dist/dispowser.js",
+  "main": "lib/dispowser.min.js",
   "scripts": {
     "prod": "cross-env NODE_ENV=production webpack -p --config 'build/webpack.config.js'",
     "dev": "cross-env NODE_ENV=development webpack --config 'build/webpack.config.js'",
@@ -67,6 +67,7 @@
     "mocha": "^5.2.0",
     "sinon": "^6.1.5",
     "sinon-chai": "^3.2.0",
+    "unminified-webpack-plugin": "^2.0.0",
     "webpack": "^4.16.5",
     "webpack-bundle-analyzer": "^2.13.1",
     "webpack-cli": "^3.1.0",
