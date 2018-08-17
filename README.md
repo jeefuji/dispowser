@@ -11,7 +11,7 @@ Dispowser is a tool which facilitate resource disposing management. Easy to use,
 ### Manual disposing
 ```javascript
   function WebsocketWrapper() {
-    this.ws = new Websocket("ws://localhost:4573"); // rxjs subject
+    this.ws = new Websocket("ws://localhost:4573");
     this.ws.onclose = () => console.log("closed");
     
     this.dispose = () => {
