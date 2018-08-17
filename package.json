@@ -1,6 +1,6 @@
 {
   "name": "dispowser",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Tools easing the management of resource disposing. Easy to use, will support more and more use cases.",
   "main": "lib/dispowser.min.js",
   "scripts": {
